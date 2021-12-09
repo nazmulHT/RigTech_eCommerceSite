@@ -1,0 +1,20 @@
+.carsousel-item{
+    height: 30rem;
+    background-color: aliceblue;
+}
+
+.auto-com-wrapper{
+    position: absolute;
+    z-index: 1;
+    right: 100px;
+    top: 65px;
+    color: white;
+}
+
+.auto-com-data{
+    position: absolute;
+}
+
+#result tr {
+    background: white;
+}

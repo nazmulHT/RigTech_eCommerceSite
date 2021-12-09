@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding: 0;
+    background: url(white-technology-background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.adr{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(42, 63, 60, 0.1);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.registration_box{
+     /*reg box padding ,margin, background color, back shadow,position */ 
+    width:500px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    background: rgba(11, 207, 181, 0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    top: 15%;
+    left: 35%;    
+
+
+    
+    position: absolute;
+    box-sizing: border-box;
+        
+    padding: 70px 30px;
+}
+form{
+    text-align: center;
+    padding: 10px;
+}
+h3{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    color: teal;
+}
+h2{
+    height: 10px;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(11, 37, 37);
+}
+h4{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    color: teal;
+}
+h5{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    color: teal;
+}
+.registration_box input[type="text"]{
+    border:rgba(0,0,0,1);
+    border-bottom: 1px salmon;
+    background:transparent;
+    outline:rgba(0,0,0,1);
+    height: 40px;
+    color:black;
+    font-size: 16px;
+}
+
+.registration_box input[type="submit"]
+{
+    border: beige;
+    outline:none;
+    height: 40px;
+    width: 150px;
+    background:rgb(81, 187, 146);
+    font-size: 17px;
+    border-radius: 20px;
+}
+.registration_box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:white;
+    color: black;
+}
+
+
+
